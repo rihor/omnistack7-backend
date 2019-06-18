@@ -1,0 +1,9 @@
+#ignorar dependencias instaladas
+node_modules
+
+#ignorar tudo dentro da pasta uploads, menos a pasta resized
+uploads/*
+!uploads/resized
+
+#ignorar tudo dentro de resized
+uploads/resized/*
