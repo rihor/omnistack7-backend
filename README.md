@@ -8,3 +8,5 @@ Não fiz deploy pois não tenho espaço na Heroku mais, portando caso você quei
 Dentro da pasta do projeto, execute o comando: `yarn install`
 
 Depois: `yarn dev`
+
+Depois de executar o ultimo comando acesse o banco através desse link: http://localhost:3333/
