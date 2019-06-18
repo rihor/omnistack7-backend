@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 });
 
 // cors permite que todo tipo de aplicação acesse o backend
-app.use(cors);
+app.use(cors());
 
 // sempre que usar o caminho files irá fazer referencia a esta pasta: resized
 // rota para acessar arquivos estáticos salvos
