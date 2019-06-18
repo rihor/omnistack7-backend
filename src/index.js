@@ -18,7 +18,7 @@ const io = require("socket.io")(server);
 const user = "user";
 const password = "123";
 mongoose.connect(
-  `mongodb+srv://${user}:${password}@cluster0-jyyyv.mongodb.net/test?retryWrites=true&w=majority`,
+  `mongodb://${user}:${password}@cluster0-shard-00-00-jyyyv.mongodb.net:27017,cluster0-shard-00-01-jyyyv.mongodb.net:27017,cluster0-shard-00-02-jyyyv.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority`,
   { useNewUrlParser: true }
 );
 
